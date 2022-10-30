@@ -11,7 +11,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_konstruktori_luo_tyhjan_varaston(self):
         # https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertAlmostEqual
-        self.assertAlmostEqual(self.varasto.saldo, 100)
+        self.assertAlmostEqual(self.varasto.saldo, 0)
         
     def test_konstruktori_nollaa_negatiivisen_alkusaldon(self):
         self.assertAlmostEqual(self.varastohuono.saldo, 0)
