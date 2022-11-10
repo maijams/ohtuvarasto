@@ -1,5 +1,5 @@
 class Varasto:
-    def __init__(self, tilavuus, alku_saldo = 0):#........................................................................
+    def __init__(self, tilavuus, alku_saldo = 0):
         # jos negatiivinen, nollataan
         self.tilavuus = max(0, tilavuus)
 
